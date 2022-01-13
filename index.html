@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a5dc5360cf.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@500&display=swap" rel="stylesheet">
+    <title>Product Survey</title>
+</head>
+<body>
+    <div class="headTitle">
+        <h1 class="theTitle">Product Survey</h1>
+    </div>
+
+    <div class="survey">
+        <div class="question1">
+            <div class="theQuestion">
+                <h2 id="1stQuestion">What is your gender?</h2>
+            </div>
+            <div class="options">
+                <ul class="optionList1">
+                    <li class="option" id="q1O1">Male</li>
+                    <li class="option" id="q1O2">Female</li>
+                    <li class="option" id="q1O3">Prefer not to answer</li>
+                </ul>
+            </div>
+        </div>
+    
+        <div class="question2">
+            <div class="theQuestion">
+                <h2 id="2ndQuestion">Did you buy our product?</h2>
+            </div>
+            <div class="options">
+                <ul class="optionList2">
+                    <li class="option" id="q2O1">Yes</li>
+                    <li class="option" id="q2O2">No</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="question3">
+            <div class="theQuestion">
+                <h2 id="3rdQuestion">What product did you buy?</h2>
+            </div>
+            <div class="options">
+                <ul class="optionList3">
+                    <li class="option" id="q3O1">Laptop</li>
+                    <li class="option" id="q3O2">Phone</li>
+                    <li class="option" id="q3O3">Watch</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="question4">
+            <div class="theQuestion">
+                <h2 id="4thQuestion">What convinced you to buy the product?</h2>
+            </div>
+            <div class ="options">
+                <form action="" class="inputAnswerQ4">
+                    <input class="inputValueQ4" type="text" placeholder="Enter answer">
+                </form>
+            </div>
+        </div>
+
+        <div class="question5">
+            <div class="theQuestion">
+                <h2 id="5thQuestion">How satisfied are you with our product?</h2>
+                <h3 class ="underTitle">Pick one option from below</h3>
+            </div>
+            <div class="radioAnswer">
+                <form action="" class="radioForm">
+                    <div>
+                        <input class="radioButton" type="radio" name="q5" id="r1"value="Totaly unsatisfied">
+                        <label
+                        class="label" for="r1">Totaly unsatisfied</label>
+                    </div>
+                    <div>
+                        <input class="radioButton" type="radio" name="q5" id="r2"value="Not satisfied">
+                        <label
+                        class="label" for="r2">Not Satisfied</label>
+                    </div>
+                    <div>
+                        <input class="radioButton" type="radio" name="q5" id="r3"value="Barely satisfied">
+                        <label
+                        class="label" for="r3">Barely satisfied</label>
+                    </div>
+                    <div>
+                        <input class="radioButton" type="radio" name="q5" id="r4"value="Satisfied">
+                        <label
+                        class="label" for="r4">Satisfied</label>
+                    </div>
+                    <div>
+                        <input class="radioButton" type="radio" name="q5" id="r5"value="Completly satisfied">
+                        <label
+                        class="label" for="r5">Completly satisfied</label>
+                    </div>
+                </form>
+                <form action="" class ="submitQ5">
+                    <button class="button">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="question6">
+            <div class="theQuestion">
+                <h2 id="6thQuestion">What stopped you from buying a product?</h2>
+            </div>
+            <div class="options">
+                <form action="" class="inputAnswerQ6">
+                    <input type="text" class="inputValueQ6" placeholder="Enter answer">
+                </form>
+            </div>
+        </div>
+
+        <div class="question7">
+            <div class="theQuestion">
+                <h2 id="7thQuestion">What would you change about our product?</h2>
+            </div>
+            <div class="options">
+             <form action="" class="inputAnswerQ7">
+                <input type="text" class="inputValueQ7" placeholder="Enter Answer">
+             </form>
+            </div>
+        </div>
+
+        <div class="question8">
+            <div class="theQuestion">
+                <h2 id="8thQuestion">If we changed the aspect you didn't like, would you consider buying our product?</h2>
+            </div>
+            <div class="radioAnswer">
+                <form action="" class="radioForm">
+                    <div>
+                        <input type="radio" class="radioButton" name="q8" id="r8_1" value="Not at all">
+                        <label for="r8_1" class="label">Not at all</label>
+                    </div>
+                    <div>
+                        <input type="radio" class="radioButton" name="q8" id="r8_2" value="Unlikely">
+                        <label for="r8_2" class="label">Unlikely</label>
+                    </div>
+                    <div>
+                        <input type="radio" class="radioButton" name="q8" id="r8_3" value="Probably">
+                        <label for="r8_3" class="label">Probably</label>
+                    </div>
+                    <div>
+                        <input type="radio" class="radioButton" name="q8" id="r8_4" value="Very likely">
+                        <label for="r8_4" class="label">Very lickely</label>
+                    </div>
+                    <div>
+                        <input type="radio" class="radioButton" name="q8" id="r8_5" value="Definetly">
+                        <label for="r8_5" class="label">Definetly</label>
+                    </div>
+                </form>
+                <form action="" class ="submitQ8">
+                    <button class="button">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="final">
+            <div class="theQuestion">
+               <h2>Thank you for completing my survey!</h2>
+            </div>
+            <form action="" class="resultForm">
+                <button class="button">Results</button>
+            </form>
+        </div>
+
+        <div class="results">
+        </div>
+    </div>
+    <script defer src="script.js"></script>
+</body>
+</html>
